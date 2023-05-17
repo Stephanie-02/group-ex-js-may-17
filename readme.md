@@ -10,5 +10,7 @@ Every time we update our data, save it to localstorage.
 
 When we create the each list item, also add a "Delete" button. When we click it, we delete that specific item from our list, update our data array and store in localstorage.
 
+At the start of the renderData() function, we need to use container.innerHTML = ""; to clear the container first, so that we see our updated data properly.
+
 
 
